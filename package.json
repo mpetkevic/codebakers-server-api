@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/mpetkevic/codebakers-server.git",
+  "author": "Miroslav Petkevič",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "pg": "^7.8.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "local": "nodemon server.js"
+  }
+}
