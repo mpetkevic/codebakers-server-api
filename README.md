@@ -12,6 +12,8 @@ DB_USER=(Yours database username(example: test))
 DB_PASSWORD=(Yours database password(example: test))
 
 DB_NAME=(Yours database name(example: test-db))
+
+DB_PORT=(Yours database port(example: 5432))
 `
 
 when run `npm install'
